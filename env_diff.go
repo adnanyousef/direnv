@@ -16,7 +16,7 @@ var IgnoredKeys = map[string]bool{
 	"DIRENV_IN_ENVRC": true,
 
 	"COMP_WORDBREAKS": true, // Avoids segfaults in bash
-	"PS1":             true, // PS1 should not be exported, fixes problem in bash
+	// "PS1":             true, // PS1 should not be exported, fixes problem in bash
 
 	// variables that should change freely
 	"OLDPWD":    true,
